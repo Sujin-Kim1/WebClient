@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>MOVIES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/x-ico" href="favicon.jpg">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<!-- create a navigation menu -->
+<ul class="navigation">
+    <li><a href="movies.html">MOVIES</a></li>
+    <li><a href="comics.html" class="home-nav">COMICS</a></li>
+    <li><a href="marvel.html">MARVLE</a></li>
+    <li><a href="video.html">VIDEOS</a></li>
+    <li><a href="character.html">CHARACTERS</a></li>
+</ul>
+
+<br><br><br><br><br>
+
+<ul>
+    <li class="more"><a href="#X_MEN"><img src="X-MAN.jpg" alt="X-MEN" width="100%"></a><h4>X-MEN: GOLD</h4></li>
+    <li class="more"><a href="#DEADPOOL"><img src="deadpool.jpg" alt="DEADPOOL" width="100%"></a><h4>DEADPOOL</h4></li>
+    <li class="more"><a href="#CIVIL_WAR"><img src="civilWar.jpg" alt="CIVIL WAR" width="100%"></a><h4>CIVIL WAR</h4>
+    </li>
+</ul>
+
+<br style="clear: left">
+
+<span id="X_MEN">
+    <img class="left_img" src="X-MAN.jpg" alt="X-MEN: GOLD" onclick="typingXMEN()"></a>
+
+    <h2>X_MEN: GOLD (2017) #27</h2>
+
+    <table style="width: 450px">
+        <tr>
+            <th>발행</th>
+            <td>2018.05.02</td>
+        </tr>
+        <tr>
+            <th>작가</th>
+            <td>마크 구겐하임, 에드 브리 손</td>
+        </tr>
+        <tr>
+            <th>그림</th>
+            <td>오스카 바잘 두아, 데이비드 마르, 제랄도 보르헤스</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+    <h8 id="x-men-info"></h8></td>
+        </tr>
+    </table>
+    </span>
+
+<br style="clear: left">
+
+<span id="DEADPOOL">
+        <img class="left_img" src="deadpool.jpg" alt="DEADPOOL" onclick="typingDEADPOOL()">
+
+        <h2>DEADPOOL (2018) #1</h2>
+
+        <table style="width: 450px">
+            <tr>
+                <th>발행</th>
+                <td>2018.05.02</td>
+            </tr>
+            <tr>
+                <th>작가</th>
+                <td>알 유잉</td>
+            </tr>
+            <tr>
+                <th>그림</th>
+                <td>살바 에스 팡</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+    <h8 id="deadpool-info"></h8></td>
+            </tr>
+        </table>
+    </span>
+
+<br style="clear: left">
+
+<span id="CIVIL_WAR">
+        <img class="left_img" src="civilWar.jpg" alt="CIVIL WAR" onclick="typingCIVILWAR()"></a>
+
+    <h2>CIVIL WAR (2007)</h2>
+
+        <table style="width: 450px">
+            <tr>
+                <th>발행</th>
+                <td>2007.11.04</td>
+            </tr>
+            <tr>
+                <th>작가</th>
+                <td>마크 밀러</td>
+            </tr>
+            <tr>
+                <th>그림</th>
+                <td>스티브 맥니븐</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+<h8 id="civilwar-info"></h8></td>
+            </tr>
+            <tr>
+                <td><a href="http://www.yes24.com/24/Goods/3611103?Acode=101#contentsIntro"
+                       target="_blank">(구매좌표)</a></td>
+            </tr>
+        </table>
+        </span>
+<a href="comics.html"><button class="buttons" onmouseover="topOver(this)" onmouseleave="topLeave(this)" style="display: none;">Top</button></a>
+</body>
+</html>
